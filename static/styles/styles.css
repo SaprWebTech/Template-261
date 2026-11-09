@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Based";
+    src: url("../fonts/PTSans-Regular.ttf");
+}
+
+body {
+    color: white;
+    font-family: "Based", sans-serif;
+    font-size: 24px;
+    background-color: #701919;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 70px;
+}
+
+button {
+    font-family: "Based", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.g-10 {
+    gap: 10px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.m-w-1200-m0a {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    height: 100%;
+    padding: 10px;
+}
+
+.right-header {
+    height: 100%;
+    width: 600px;
+}
+
+.icons-style {
+    width: 20px;
+    height: 20px;
+}
+
+.main-container {
+    height: 100vh;
+    background-image: url("../images/Halloween.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    margin-bottom: 100px;
+}
