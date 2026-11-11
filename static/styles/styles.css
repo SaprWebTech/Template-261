@@ -9,6 +9,11 @@
     src: url("../fonts/PTSans-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Based-Bold";
+    src: url("../fonts/PTSans-Bold.ttf");
+}
+
 body {
     color: white;
     font-family: "Based", sans-serif;
@@ -36,6 +41,10 @@ button {
     border: none;
     padding: 5px 30px;
     border-radius: 10px;
+}
+
+section {
+    margin: 40px 0;
 }
 
 .flex {
@@ -66,8 +75,20 @@ button {
     gap: 20px;
 }
 
+.g-80 {
+    gap: 80px;
+}
+
 .h-100 {
     height: 100%;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
 }
 
 .m-w-1200-m0a {
@@ -99,4 +120,42 @@ button {
 
 .main-content {
     margin-bottom: 100px;
+}
+
+.header-menu > ul > li,
+.contact-item {
+    transition: .3s all;
+}
+
+.header-menu > ul > li:hover,
+.contact-item:hover {
+    opacity: 0.8;
+    scale: 0.9;
+}
+
+.sec1-left {
+    width: 60%;
+    position: relative;
+}
+
+.sec1-right {
+    border-radius: 10px;
+    height: 600px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.stick {
+    background-color: #C19F9F;
+    height: 6px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.unic-118 {
+    position: absolute;
+    font-family: "Based-Bold", sans-serif;
+    font-size: 150px;
+    opacity: 0.2;
+    top: 0;
 }
