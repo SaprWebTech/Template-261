@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 li {
     list-style: none;
 }
@@ -41,6 +45,12 @@ button {
     border: none;
     padding: 5px 30px;
     border-radius: 10px;
+    transition: .3s all;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c3abab;
 }
 
 section {
@@ -49,6 +59,10 @@ section {
 
 .flex {
     display: flex;
+}
+
+.flex-1 {
+    flex: 1;
 }
 
 .fd-c {
@@ -75,6 +89,10 @@ section {
     gap: 20px;
 }
 
+.g-40 {
+    gap: 40px;
+}
+
 .g-80 {
     gap: 80px;
 }
@@ -96,6 +114,13 @@ section {
     margin: 0 auto;
 }
 
+.icons-style {
+    width: 20px;
+    height: 20px;
+}
+
+/********************************************************************************************************MAIN*CONTENT********************************************************************************************************/
+
 .main-header {
     height: 100%;
     padding: 10px;
@@ -104,11 +129,6 @@ section {
 .right-header {
     height: 100%;
     width: 600px;
-}
-
-.icons-style {
-    width: 20px;
-    height: 20px;
 }
 
 .main-container {
@@ -131,7 +151,10 @@ section {
 .contact-item:hover {
     opacity: 0.8;
     scale: 0.9;
+    cursor: pointer;
 }
+
+/********************************************************************************************************SECTION1********************************************************************************************************/
 
 .sec1-left {
     width: 60%;
@@ -153,9 +176,19 @@ section {
 }
 
 .unic-118 {
+    user-select: none;
     position: absolute;
     font-family: "Based-Bold", sans-serif;
     font-size: 150px;
     opacity: 0.2;
     top: 0;
+}
+
+/********************************************************************************************************SECTION2********************************************************************************************************/
+
+.card > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
